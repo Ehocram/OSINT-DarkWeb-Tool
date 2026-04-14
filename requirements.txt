@@ -1,0 +1,11 @@
+# DarkWeb OSINT Tool — Dipendenze
+# Installazione: pip install -r requirements.txt
+
+# Core UI
+PyQt6>=6.5.0
+
+# Routing Tor (opzionale — necessario per backend "Tor Proxy")
+PySocks>=1.7.1
+
+# Nota: tutte le altre dipendenze (sqlite3, urllib, json, csv, re, socket)
+# sono incluse nella libreria standard Python 3.10+
